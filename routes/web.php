@@ -35,3 +35,9 @@ Route::get('/about' , function (){
 
     return view('about' , $data);
 });
+
+
+
+// Route::get('/more' , function (){
+
+// })

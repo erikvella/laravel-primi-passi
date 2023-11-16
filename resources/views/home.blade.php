@@ -12,6 +12,11 @@
     <h1>Hello World</h1>
 
     <h2>Ciao , io mi chiamo {{ $nome }} {{ $cognome }}</h2>
+
+    <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT</a></li>
+    </ul>
 </body>
 
 </html>

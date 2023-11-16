@@ -14,6 +14,11 @@
     </h1>
 
     <h2>Written by {{ $nome }} {{ $cognome }}</h2>
+
+    <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/about">ABOUT</a></li>
+    </ul>
 </body>
 
 </html>
