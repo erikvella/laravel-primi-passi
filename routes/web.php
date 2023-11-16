@@ -38,6 +38,22 @@ Route::get('/about' , function (){
 
 
 
-// Route::get('/more' , function (){
-
-// })
+Route::get('/more' , function (){
+   $titolo = 'Più info';
+   $par = 'Con la gentile partecipazione di :';
+   $people = [
+    [
+        'name' => 'Orazio',
+        'surname' => 'Grinzosi'
+    ],
+    [
+        'name' => 'Osvaldo',
+        'surname' => 'Paniccia'
+    ],
+    [
+        'name' => 'Andrea',
+        'surname' => 'Diprè'
+    ],
+];
+return view('more' , compact('titolo' , 'people' , 'par'));
+});
